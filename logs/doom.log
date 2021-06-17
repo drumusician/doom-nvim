@@ -1,0 +1,220 @@
+[---] - Dumping :messages
+
+E492: Not an editor command: LspInstall elixir 
+[---] - End of dump
+[---] - Dumping :messages
+
+E492: Not an editor command: LSPInstall
+"doomrc" 332L, 10546C written
+"~/code/studman/mix.exs" 87L, 2482C written
+"doomrc" 332L, 10546C written 
+[---] - End of dump
+[---] - Dumping :messages
+
+"~/.config/doom-nvim/doomrc" 332L, 10539C written
+Error detected while processing /Users/tjaco/.dotfiles/config/doom-nvim/doomrc:
+line    1:
+E492: Not an editor command: ---[[--------------------------------------------------]]---
+line    2:
+E492: Not an editor command: --           doomrc - Doom Nvim configurations            --
+line    3:
+E464: Ambiguous use of user-defined command: --    For more information, see `:h doom_nvim_options`    --
+line    4:
+E492: Not an editor command: ---[[--------------------------------------------------]]---
+line    6:
+E488: Trailing characters: Doom = {
+line    7:
+E492: Not an editor command:     ---[[--------------------------------------------------]]---
+line    8:
+E492: Not an editor command:     --                  Boolean Options                       --
+line    9:
+E492: Not an editor command:     ---[[--------------------------------------------------]]---
+line   11:
+E492: Not an editor command: ^I-- Autosave
+line   12:
+E492: Not an editor command: ^I-- false : Disable autosave
+line   13:
+E492: Not an editor command: ^I-- true  : Enable autosave
+line   15:
+E492: Not an editor command: ^Iautosave = false,
+line   17:
+E488: Trailing characters: ^I-- Format on save
+line   18:
+E492: Not an editor command: ^I-- false : Disable format on save
+line   19:
+E492: Not an editor command: ^I-- true  : Enable format on save
+line   21:
+E492: Not an editor command: ^Ifmt_on_save = false,
+line   23:
+E492: Not an editor command: ^I-- Autosave sessions
+line   24:
+E492: Not an editor command: ^I-- false : Disable session autosave
+line   25:
+E492: Not an editor command: ^I-- true  : Enable session autosave
+line   27:
+E492: Not an editor command: ^Iautosave_sessions = false,
+line   29:
+E492: Not an editor command: ^I-- Autoload sessions
+line   30:
+E492: Not an editor command: ^I-- false : Disable session autoload
+line   31:
+E492: Not an editor command: ^I-- true  : Enable session autoload
+line   33:
+E492: Not an editor command: ^Iautoload_last_session = false,
+line   35:
+E492: Not an editor command:     -- Enable Swap files
+line   36:
+E492: Not an editor command:     -- false : no swap files
+line   37:
+E492: Not an editor command:     -- true  : enables swap files
+line   39:
+E488: Trailing characters:     swap_files = false,
+line   41:
+E492: Not an editor command:     -- Undo Directories
+line   42:
+E492: Not an editor command:     -- the backup variable enables backup related settings (undofile, undodir)
+line   43:
+E492: Not an editor command:     -- false : ignores undo Directories (this code block will be ignored)
+Interrupted 
+[---] - End of dump
+[---] - Dumping :messages
+ 
+[---] - End of dump
+[---] - Dumping :messages
+
+E492: Not an editor command: LSPInstall
+E471: Argument required
+Error detected while processing function <lambda>672:
+line    1:
+E5108: Error executing lua Vim:E117: Unknown function: vsnip#get_complete_items
+1 change; before #1  2 seconds ago
+"~/code/studman/mix.exs" 87L, 2482C written
+[nvim-lspinstall] Successfully installed language server for elixir 
+[---] - End of dump
+[---] - Dumping :messages
+
+Error detected while processing nvim_exec():
+W18: Invalid character in group name
+W18: Invalid character in group name
+"~/.config/doom-nvim/doomrc" 332L, 10525C written 
+[---] - End of dump
+[---] - Dumping :messages
+
+Error detected while processing BufEnter Autocommands for "term://*toggleterm#*":
+E5108: Error executing lua ...k/packer/start/nvim-toggleterm.lua/lua/toggleterm/ui.lua:256: Vim:E444: Cannot close last window
+E444: Cannot close last window
+Already only one window 
+[---] - End of dump
+[---] - Dumping :messages
+
+Error detected while processing nvim_exec():
+W18: Invalid character in group name
+W18: Invalid character in group name
+Error detected while processing BufEnter Autocommands for "term://*toggleterm#*":
+E5108: Error executing lua ...k/packer/start/nvim-toggleterm.lua/lua/toggleterm/ui.lua:256: Vim:E444: Cannot close last window
+...k/packer/start/nvim-toggleterm.lua/lua/toggleterm/ui.lua:256: Vim:E444: Cannot close last window 
+[---] - End of dump
+[---] - Dumping :messages
+
+Error detected while processing nvim_exec():
+W18: Invalid character in group name
+W18: Invalid character in group name
+"~/.config/doom-nvim/doomrc" 332L, 10524C written
+"~/.config/doom-nvim/doomrc" 332L, 10524C written
+"~/.config/doom-nvim/doomrc" 332L, 10524C written 
+[---] - End of dump
+[---] - Dumping :messages
+
+Error detected while processing nvim_exec():
+W18: Invalid character in group name
+W18: Invalid character in group name
+
+
+filetype detection:ON  plugin:ON  indent:ON
+"doomrc" 332L, 10549C written
+"doomrc" 332L, 10549C written
+"doomrc" 332L, 10549C written 
+[---] - End of dump
+[---] - Dumping :messages
+
+Error detected while processing nvim_exec():
+W18: Invalid character in group name
+W18: Invalid character in group name
+"~/.config/doom-nvim/doomrc" 332L, 10552C written
+"~/.config/doom-nvim/doomrc" 332L, 10552C written
+"~/.config/doom-nvim/doomrc" 332L, 10552C written 
+[---] - End of dump
+[---] - Dumping :messages
+
+The session "/Users/tjaco/.config/doom-nvim/sessions/dotfiles_config_doom-nvim.vim" doesn't exist 
+[---] - End of dump
+[---] - Dumping :messages
+
+Error detected while processing nvim_exec():
+W18: Invalid character in group name
+W18: Invalid character in group name
+LSP[elixir][Info] Did not receive workspace/didChangeConfiguration notification after 5 seconds. Using default settings.
+E21: Cannot make changes, 'modifiable' is off
+E492: Not an editor command: MinimapToggle
+E492: Not an editor command: MinimapToggle
+E492: Not an editor command: MinimapToggle
+E492: Not an editor command: MinimapToggle
+E492: Not an editor command: MinimapToggle
+"~/code/studman/lib/studman/accounts/student.ex" 61L, 1416C written
+"~/code/studman/lib/studman/accounts/student.ex" 61L, 1416C written
+
+Error detected while processing BufEnter Autocommands for "term://*toggleterm#*":
+E5108: Error executing lua ...k/packer/start/nvim-toggleterm.lua/lua/toggleterm/ui.lua:256: Vim:E444: Cannot close last window
+E444: Cannot close last window
+E388: Couldn't find definition
+E388: Couldn't find definition
+E948: Job still running
+E162: No write since last change for buffer "doomrc"
+...k/packer/start/nvim-toggleterm.lua/lua/toggleterm/ui.lua:256: Vim:E444: Cannot close last window
+E37: No write since last change
+E162: No write since last change for buffer "doomrc"
+E37: No write since last change
+E162: No write since last change for buffer "doomrc"
+"doomrc" 332L, 10551C written
+"doomrc" 332L, 10551C written
+E37: No write since last change
+E162: No write since last change for buffer "/Users/tjaco/code/studman/lib/studman/accounts/student.ex"
+"~/code/studman/lib/studman/accounts/student.ex" 61L, 1441C written
+"~/code/studman/lib/studman/accounts/student.ex" 61L, 1441C written 
+[---] - End of dump
+[---] - Dumping :messages
+
+The session "/Users/tjaco/.config/doom-nvim/sessions/dotfiles_config_doom-nvim.vim" doesn't exist
+Error detected while processing nvim_exec():
+W18: Invalid character in group name
+W18: Invalid character in group name
+LSP[elixir][Info] Did not receive workspace/didChangeConfiguration notification after 5 seconds. Using default settings.
+"~/.config/doom-nvim/doomrc" 332L, 10529C written
+"~/.config/doom-nvim/doomrc" 332L, 10529C written
+"~/.config/doom-nvim/doomrc" 332L, 10529C written
+"~/.config/doom-nvim/doomrc" 332L, 10529C written 
+[---] - End of dump
+[---] - Dumping :messages
+
+Please install lazygit. Check documentation for more information
+
+Please install lazygit. Check documentation for more information 
+[---] - End of dump
+[---] - Dumping :messages
+
+minimap: this plugin requires code-minimap installed.
+Error detected while processing nvim_exec():
+W18: Invalid character in group name
+W18: Invalid character in group name
+LSP[elixir][Info] Did not receive workspace/didChangeConfiguration notification after 5 seconds. Using default settings.
+E354: Invalid register name: '~@k'
+E354: Invalid register name: '^M'
+E481: No range allowed
+E354: Invalid register name: '~@k'
+E354: Invalid register name: '~@k'
+Already at oldest change
+"~/code/studman/lib/studman/accounts/student.ex" 61L, 1416C written
+"~/code/studman/lib/studman/accounts/student.ex" 61L, 1416C written
+
+ 
+[---] - End of dump

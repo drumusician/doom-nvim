@@ -18,7 +18,7 @@ Doom = {
 	-- false : Disable format on save
 	-- true  : Enable format on save
 	-- @default = false
-	fmt_on_save = false,
+	fmt_on_save = true,
 
 	-- Autosave sessions
 	-- false : Disable session autosave
@@ -41,7 +41,7 @@ Doom = {
     -- Undo Directories
     -- the backup variable enables backup related settings (undofile, undodir)
     -- false : ignores undo Directories (this code block will be ignored)
-    -- true  : enable undo files/undo dirs.
+   -- true  : enable undo files/undo dirs.
     -- @default = false
     backup = false, -- WARNING: if you change this to false and you have an undo dir already, it will REMOVE the undodir (loss of data might take place)
 
@@ -170,12 +170,12 @@ Doom = {
 
 	-- Default indent size
 	-- @default = 4
-	indent = 4,
+	indent = 2,
 
 	-- Set max cols
 	-- Defines the column to show a vertical marker
 	-- @default = 80
-	max_columns = 80,
+	max_columns = 100,
 
     -- Completion box height
 	-- @default = 10
@@ -277,13 +277,13 @@ Doom = {
 	-- @default = {'lazygit', 'minimap', 'restclient', 'doom-themes'}
 	-- example:
 	--   disabled_plugins = {'emmet-vim'}
-	disabled_plugins = { 'lazygit', 'minimap', 'restclient', 'doom-themes'},
+	disabled_plugins = { 'restclient', 'doom-themes'},
 
 	-- Disabled plugins modules
 	-- @default = {'git', 'lsp', 'web'}
 	-- example:
 	--   disabled_modules = {'web'}
-	disabled_modules = { 'git', 'lsp', 'web' },
+	disabled_modules = {},
 
 	-- Install custom plugins
 	-- @default = {}
@@ -297,13 +297,13 @@ Doom = {
 	--              ['enabled'] = true,
 	--           }
 	--       }
-	custom_plugins = {},
+	custom_plugins = { 'elixir-editors/vim-elixir'},
 
 	-- Set the parsers for TreeSitter
 	-- @default = {}
 	-- example:
-	--   ts_parsers = {'python', 'javascript'}
-	ts_parsers = {},
+	--   ts_parsers = {'python', 'javascript', 'elixir'}
+	ts_parsers = {'javascript', 'elixir'},
 
     -- Set your custom dashboard header below
     -- @default = doom emacs' default dashboard header
