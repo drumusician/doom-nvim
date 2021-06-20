@@ -2,6 +2,8 @@
 -- Required to close with ESC in insert mode
 local actions = require('telescope.actions')
 local telescope = require('telescope')
+require'telescope'.load_extension('project')
+
 
 telescope.setup({
 	defaults = {

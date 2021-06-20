@@ -297,7 +297,7 @@ Doom = {
 	--              ['enabled'] = true,
 	--           }
 	--       }
-	custom_plugins = { 'elixir-editors/vim-elixir'},
+	custom_plugins = { 'elixir-editors/vim-elixir', 'nvim-telescope/telescope-project.nvim'},
 
 	-- Set the parsers for TreeSitter
 	-- @default = {}

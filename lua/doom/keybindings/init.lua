@@ -193,6 +193,7 @@ wk.register({
 			name = '+plugins',
 			c = { ':PackerClean<CR>', 'Clean disabled or unused plugins' },
 			i = { ':PackerInstall<CR>', 'Install missing plugins' },
+			S = { ':PackerStatus<CR>', 'Plugins Status' },
 			p = {
 				':PackerProfile<CR>',
 				'Profile the time taken loading your plugins',
@@ -227,6 +228,8 @@ wk.register({
 			c = { ':e $MYVIMRC<CR>', 'Edit Neovim configuration' },
 			n = { 'Create a new unnamed buffer' },
 			f = { ':Telescope find_files<CR>', 'Find files' },
+			d = { ':Telescope file_browser<CR>', 'File browser' },
+			p = { ':Telescope project<CR>', 'Project' },
 			b = { ':Telescope marks<CR>', 'Bookmarks' },
 			W = { ':Telescope live_grep<CR>', 'Find word' },
 			t = { ':Telescope help_tags<CR>', 'Help tags' },
